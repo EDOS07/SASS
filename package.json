@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/EDOS07/SASS/issues"
   },
-  "homepage": "https://github.com/EDOS07/SASS#readme"
+  "homepage": "https://github.com/EDOS07/SASS#readme",
+  "devDependencies": {
+    "sass": "^1.88.0"
+  }
 }
