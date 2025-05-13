@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Aprendiendo SASS y NPM",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:dist/css"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/EDOS07/SASS#readme",
   "devDependencies": {
+    "gulp": "^5.0.0",
     "sass": "^1.88.0"
   }
 }
